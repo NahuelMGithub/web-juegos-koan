@@ -1,0 +1,13 @@
+# Archivos sensibles
+.env
+
+# Config local
+.vscode/
+*.log
+
+# Imágenes pesadas
+img/alta-resolucion/
+
+# Archivos temporales
+*.bak
+*.zip

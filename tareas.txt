@@ -1,0 +1,26 @@
+de home: arreglar carrusel para que no tenga  margin inferior y se adapte a dispositivo
+ademas, quiero agregar texto y algun link
+
+
+nuestros juegos:
+que se disponga mejor
+
+
+json hacer bien> incorporar Mini resumen, tipo de juego y link a bbg
+
+protejer readm antes de subir
+ver si puedo no subir el json
+subir a github y eventualmente a dom
+
+trabajar ceo
+hacer que se pueda encontrar desde google
+darle los permisos de seguridad
+
+
+trabajar tiendas, nosotros, etc
+
+Ideas:
+-Para los carrusel, en lugar de escribir el tipico con 3 fotos, tiene que:
+    Recorrer el array de fotos.
+    Por cada foto va a ir creando una instancia de carrusel, con nombre y foto y boton para el siguiente. Asi, si le agrego mas fotos, no tengo
+    que cambiar codigo, se hace solo.

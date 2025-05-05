@@ -1,0 +1,232 @@
+/* ==================== Reset Global ==================== */
+/* Elimina márgenes y paddings por defecto */
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+/* Layout base para que el footer quede al final */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+main {
+  flex: 1; /* Ocupa todo el espacio entre header y footer */
+  background-color: rgb(222, 224, 224);
+
+}
+
+/* ==================== Navbar ==================== */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  will-change: transform;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/* ==================== Footer ==================== */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#footer-container {
+  margin-top: auto; /* Empuja el footer al fondo en páginas con poco contenido */
+}
+
+/* ==================== Carrusel de novedades ==================== */
+#novedades {
+
+  margin: 0;
+  padding: 0;
+  
+}
+#novedades .carousel-item img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover; /* Esto rellena sin deformar */
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#novedades {
+  margin: 0;
+  padding: 0;
+}
+
+.cartelNovedades{
+  color: white;
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo sutil semitransparente */
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* ==================== Banner Koan ==================== */
+.banner-koan{
+  width: 100%;
+  overflow: hidden;
+  background-color: #000; /* Evita bordes blancos si hay margen en la imagen */
+  margin: 0;
+  padding: 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción sin recortar */
+  display: block;
+}
+
+/* ==================== Galería de juegos ==================== */
+.galeria-juegos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Solo 2 por fila */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Responsive: 1 por fila en pantallas chicas */
+@media (max-width: 768px) {
+  .galeria-juegos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.juego-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.juego-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-primary{
+  margin-bottom: 5px;
+}
+
+/* ==================== Página de un juego ==================== */
+.juego-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 80vh;
+}
+
+.juegos-section {
+  padding-top: 4rem;   /* más espacio arriba */
+  padding-bottom: 2rem; /* menos espacio abajo */
+}
+
+.juego-galeria,
+.juego-info {
+  flex: 1 1 45%;
+}
+
+.juego-galeria .carousel-item img {
+  width: 100%;
+  height: 60vh;  /* Ajusta el valor según lo que desees */
+  max-height: 500px;  /* Tamaño máximo para evitar que se estiren demasiado */
+  object-fit: cover;  /* Asegura que la imagen se recorte sin deformarse */
+}v
+
+.juego-galeria img,
+#video {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive: apila galería y texto en pantallas chicas */
+@media (max-width: 768px) {
+  .juego-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .juego-galeria,
+  .juego-info {
+    flex: 1 1 100%;
+  }
+}
+
+
+/*--Carrusel de juego--*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;  /* Fondo negro para las flechas */
+  border-radius: 50%;  /* Las hace más redondeadas */
+  width: 40px;  /* Tamaño mayor */
+  height: 40px;  /* Tamaño mayor */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;  /* Ajusta el área clickeable */
+}
+
+.video-contenedor{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;  /* Centra el botón horizontalmente */
+}
+#video {
+  width: 100%;
+  height: 600px; /* Ajusta la altura según lo que necesites */
+  max-height: 800px; /* Para que no se haga demasiado grande en pantallas grandes */
+}
+
+
+.comprar {
+  display: flex;
+  justify-content: center;  /* Centra el botón horizontalmente */
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  box-sizing: border-box;  
+}
+
+.comprar .btn {
+  width: auto;  /* Asegura que el botón no se expanda más de lo necesario */
+}
+
+/* ==================== Página en construcción ==================== */
+.pagina-construccion {
+  background-image: url("../img/en-construccion.jpg"); /* Reemplazar con tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.contenido-construccion {
+  height: 100%;
+  padding: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece para mejor lectura */
+}
+
+.mensaje {
+  font-size: 2rem;
+  font-weight: bold;
+}
