@@ -24,3 +24,24 @@ Ideas:
     Recorrer el array de fotos.
     Por cada foto va a ir creando una instancia de carrusel, con nombre y foto y boton para el siguiente. Asi, si le agrego mas fotos, no tengo
     que cambiar codigo, se hace solo.
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+Ver header
+Json: fotos y textos
+Home Novedades (para grande)
+
+
+//////////////////////////////////////////////////////
+COMENTARIOS FRAN Y EQUIPO
+Mensaje de compra
+
+[16:04, 5/5/2025] Francisco Pala: Lo primero tiene que ser una descripción de la empresa e inmediatamente los juegos
+[16:04, 5/5/2025] Francisco Pala: Es más, lo primero deberían ser los juegos
+[16:04, 5/5/2025] Francisco Pala: Deberían mostrarse más fotos del juego en cada juego
+[16:04, 5/5/2025] Francisco Pala: Un contacto
+[16:04, 5/5/2025] Francisco Pala: Si quieren poner algo en slide, está bueno, pero pondría fotos de muy buena calidad en eventos, gente jugando, algunas de los juegos
+[16:04, 5/5/2025] Francisco Pala: Sumaría alguna descripción más sobre la jugabilidad de los juegos y para quiénes o qué momentos están pensados
+[16:04, 5/5/2025] Francisco Pala: Ponele, el dinamismo de la balsa

@@ -18,11 +18,12 @@ body {
 }
 
 main {
-  flex: 1; /* Ocupa todo el espacio entre header y footer */
-  background-color: rgb(222, 224, 224);
-
+  flex: 1;
+  background: linear-gradient(135deg, #979595, #f0f0f0);
+  background-blend-mode: overlay;
+  background-image: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
 }
-
 /* ==================== Navbar ==================== */
 .nav-item:hover .dropdown-menu {
   display: block;

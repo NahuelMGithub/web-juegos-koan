@@ -1,0 +1,22 @@
+nueva estructura de index y web:
+
+1 hedar no tiene mas JUEGOS. 
+
+Index:
+novedades: cambiar la estructura para que sea responsive y se vean los puntitos
+Primero psiquis, juegos, 1.k y evento mas proximo
+
+quienes somos. cortito y ver mas
+
+Juegos:
+Cada uno dos botones:
+1)comprar
+2) detalle
+
+el detalle, va al boton de compra tambien.
+
+
+Eventos: aca solo muestra los que aun no pasaron.
+json de tiendas
+
+Tiendas: luego
