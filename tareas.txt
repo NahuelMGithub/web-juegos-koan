@@ -17,24 +17,9 @@ hacer que se pueda encontrar desde google
 darle los permisos de seguridad
 
 
-trabajar tiendas, nosotros, etc
-
-Ideas:
--Para los carrusel, en lugar de escribir el tipico con 3 fotos, tiene que:
-    Recorrer el array de fotos.
-    Por cada foto va a ir creando una instancia de carrusel, con nombre y foto y boton para el siguiente. Asi, si le agrego mas fotos, no tengo
-    que cambiar codigo, se hace solo.
-
-
 //////////////////////////////////////////////////////////////////////////
 
 
-Ver header
-Json: fotos y textos
-Home Novedades (para grande)
-
-
-//////////////////////////////////////////////////////
 COMENTARIOS FRAN Y EQUIPO
 Mensaje de compra
 

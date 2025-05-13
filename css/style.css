@@ -24,6 +24,8 @@ main {
   background-image: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
 }
+
+
 /* ==================== Navbar ==================== */
 .nav-item:hover .dropdown-menu {
   display: block;
@@ -48,35 +50,18 @@ footer {
 }
 
 /* ==================== Carrusel de novedades ==================== */
-#novedades {
-
-  margin: 0;
-  padding: 0;
-  
-}
-#novedades .carousel-item img {
-  width: 100%;
-  height: 60vh;
-  object-fit: cover; /* Esto rellena sin deformar */
-  display: block;
-  margin: 0;
-  padding: 0;
+#novedades img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 400px; /* Ajustalo según tu diseño */
 }
 
-#novedades {
-  margin: 0;
-  padding: 0;
+@media (max-width: 768px) {
+  #novedades img {
+    height: 250px;
+  }
 }
 
-.cartelNovedades{
-  color: white;
-  border: 2px solid black;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.4); /* Fondo sutil semitransparente */
-  border-radius: 0.5rem;
-  font-size: 1.5rem;
-}
 
 /* ==================== Banner Koan ==================== */
 .banner-koan{
@@ -229,5 +214,12 @@ footer {
 
 .mensaje {
   font-size: 2rem;
+  font-weight: bold;
+}
+
+
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
   font-weight: bold;
 }

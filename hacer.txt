@@ -1,22 +1,36 @@
-nueva estructura de index y web:
 
-1 hedar no tiene mas JUEGOS. 
+Index
+tipografia 
+novedades tiene que ocupar el 100 % adaptarse al ancho, pero no modifiacar el alto 
 
-Index:
-novedades: cambiar la estructura para que sea responsive y se vean los puntitos
-Primero psiquis, juegos, 1.k y evento mas proximo
+los cards tienen que tener un maximo de ancho, quedan orribles asi
 
-quienes somos. cortito y ver mas
+Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
+Agregar contacto
 
-Juegos:
-Cada uno dos botones:
-1)comprar
-2) detalle
+header y footer: unificar estetica
+fondod e main, feo, cambiar. pasar a balnco mientras
 
-el detalle, va al boton de compra tambien.
+Sacar Nuestros juegos
+
+Prototipos:  viene bien
+juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
+prototipo: queda un espacio feo abajo, 
 
 
-Eventos: aca solo muestra los que aun no pasaron.
+Tiendas Meter un buscador
+Nosotros:
+Calendarios
+
+
+Para siguiente Nivel: 
+quiero que juego y protoipo, asi como eventos...
+El carrsule se cree distinto. Que NO tenga 3 imagenes por defecto, sino que vea el array y cree segun la cantidad q tenga
+Minimo le voy a poner 1
+
+
+
+jsons
+json de Juegos
 json de tiendas
-
-Tiendas: luego
+json de Eventos
