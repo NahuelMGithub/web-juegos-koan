@@ -1,17 +1,37 @@
 
-Index
-tipografia 
-novedades tiene que ocupar el 100 % adaptarse al ancho, pero no modifiacar el alto 
 
-los cards tienen que tener un maximo de ancho, quedan orribles asi
+HACER:
+
+1)En home, solo juegos
+2)En JUEGOS: dos secciones, juegos y protos. 
+NOmas pestaña de Prototipos
+
+3)En lugar de cards, solo van a estar: Foto y su nombre
+
+
+4)Tiendas: listado de tienda con Nombre, foto, web, red y dirección. 
+json de tiendas
+
+
+5)Calendario.
+Json de calendario:
+i
+
+6)Nosotros:
+fotos, sobre el koan, y texto
+
+
+
+tipografia 
+
 
 Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
-Agregar contacto
+
 
 header y footer: unificar estetica
-fondod e main, feo, cambiar. pasar a balnco mientras
 
-Sacar Nuestros juegos
+
+
 
 Prototipos:  viene bien
 juego: cambiar boton de compra. Eventualmente agregar compra directa a MP

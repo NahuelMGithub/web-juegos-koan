@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("juegos-container");
+  const container = document.getElementById("prototipos-container");
 
   try {
     const respuesta = await fetch("data/juegos.json");
