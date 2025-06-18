@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("juegos-container");
+  container.className = "juegos-flex-container"; // le damos la clase flex
 
   try {
     const respuesta = await fetch("data/juegos.json");
@@ -8,22 +9,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     juegos.forEach(juego => {
       if (juego.tipo === "publicado") {
         const card = document.createElement("div");
-        card.className = "juego-card";
+        card.className = "juego-flex-item";
+
         card.innerHTML = `
-          <img src="img/${juego.imagenes[0]}" alt="${juego.titulo}" />
-          <h3>${juego.titulo}</h3>
-          <p>${juego.descripcion}</p>
-          <a href="juego.html?id=${juego.id}" class="btn btn-primary mt-2">Ver detalles</a>
+          <a href="juego.html?id=${juego.id}" class="juego-link">
+            <img src="img/${juego.imagenes[0]}" alt="${juego.titulo}" class="juego-img" />
+            <h5 class="juego-titulo">${juego.titulo}</h5>
+          </a>
         `;
+
         container.appendChild(card);
       }
     });
-
   } catch (error) {
     console.error("Error al cargar los juegos:", error);
     container.innerHTML = "<p>Error al cargar los juegos.</p>";
   }
 });
-
-
-

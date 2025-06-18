@@ -23,6 +23,23 @@ main {
 }
 
 
+h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+
+.grid-texto {
+  max-width: 800px; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+
+
 /* ==================== Navbar ==================== */
 .nav-item:hover .dropdown-menu {
   display: block;
@@ -50,6 +67,11 @@ footer {
 #carouselNovedades {
   width: 100%;
 }
+#novedades {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #novedades img {
   object-fit: cover;
   height: 400px; /* Ajustalo según tu diseño */
@@ -62,22 +84,62 @@ footer {
 }
 
 
-/* ==================== Banner Koan ==================== */
-.banner-koan{
-  width: 100%;
-  overflow: hidden;
-  background-color: #000; /* Evita bordes blancos si hay margen en la imagen */
-  margin: 0;
-  padding: 0;
-}
-
-.banner-img {
-  width: 100%;
-  height: auto; /* Mantiene la proporción sin recortar */
-  display: block;
-}
-
 /* ==================== Galería de juegos ==================== */
+
+
+.juegos-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.juego-flex-item {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.juego-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.juego-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.juego-titulo {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Media Query: 2 por fila en pantallas mayores a 576px */
+@media (min-width: 576px) {
+  .juego-flex-item {
+    flex: 1 1 calc(50% - 1.5rem); /* resta el gap */
+    max-width: calc(50% - 1.5rem);
+  }
+}
+
+
 .galeria-juegos {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Solo 2 por fila */
@@ -92,27 +154,30 @@ footer {
   }
 }
 
-.juego-card {
-  background: #fff;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  overflow: hidden;
-  text-align: center;
-  max-width: 600px;
-margin: auto;
- 
-}
-
-.juego-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  
-}
-
 .btn-primary{
   margin-bottom: 5px;
 }
+
+.separador-con-lineas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.separador-con-lineas .linea {
+  flex: 1;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.separador-con-lineas h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 
 /* ==================== Página de un juego ==================== */
 .juego-container {
@@ -200,6 +265,24 @@ margin: auto;
   width: auto;  /* Asegura que el botón no se expanda más de lo necesario */
 }
 
+
+
+/* ==================== Banner Koan ==================== */
+.banner-koan{
+  width: 100%;
+  overflow: hidden;
+  background-color: #000; /* Evita bordes blancos si hay margen en la imagen */
+  margin: 0;
+  padding: 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción sin recortar */
+  display: block;
+}
+
+
 /* ==================== Página en construcción ==================== */
 .pagina-construccion {
   background-image: url("../img/en-construccion.jpg"); /* Reemplazar con tu imagen */
@@ -221,19 +304,19 @@ margin: auto;
 }
 
 
-h3 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-weight: bold;
+
+
+
+
+/* ==================== TIENDAS ==================== */
+.tienda-img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
 }
 
-
-
-.grid-texto {
-  max-width: 800px; 
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; 
+iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
 }
-
-

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "caba2024",
+    "nombre": "Juegos en la Ciudad",
+    "fecha": "2024-11-15",
+    "ciudad": "Buenos Aires",
+    "provincia": "CABA",
+    "imagen": "imagenes/caba2024.jpg",
+    "redes": {
+      "instagram": "https://instagram.com/evento_caba",
+      "web": "https://eventocaba.com"
+    },
+    "comentarios": "Un gran evento con mucha participación de familias.",
+    "fotos": [
+      "imagenes/evento_caba_1.jpg",
+      "imagenes/evento_caba_2.jpg",
+      "imagenes/evento_caba_3.jpg"
+    ]
+  },
+  {
+    "id": "rosario2025",
+    "nombre": "La cultura en juego 2025",
+    "fecha": "2025-09-10",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "imagen": "imagenes/rosario2025.jpg",
+    "redes": {
+      "instagram": "https://instagram.com/culturaenjuego"
+    },
+    "comentarios": "",
+    "fotos": []
+  },
+  {
+    "id": "erjm2025",
+    "nombre": "Encuentro Regional Juegos de Mesa 2025",
+    "fecha": "2025-03-10",
+    "ciudad": "Adrogué",
+    "provincia": "Bs As",
+    "imagen": "imagenes/rosario2025.jpg",
+    "redes": {
+      "instagram": "https://instagram.com/ludica_rosario"
+    },
+    "comentarios": "",
+    "fotos": []
+  }
+]

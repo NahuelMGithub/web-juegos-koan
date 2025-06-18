@@ -1,0 +1,139 @@
+[
+  {
+    "id": "homo-ludens",
+    "nombre": "Homo Ludens",
+    "web": "https://homoludensbb.com",
+    "instagram": "https://www.instagram.com/homoludensbb",
+    "direccion": "Calle Falsa 123, Bahía Blanca",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 291 1234567",
+    "horarios": "Lunes a Viernes de 10 a 19 hs",
+    "tipo": "física",
+    "tags": ["juegos de mesa", "torneos", "familias"],
+    "fotos": [
+      "tiendas/torre1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=homo+ludens+bahia+blanca' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "oso-blanco",
+    "nombre": "Oso Blanco",
+    "web": "https://www.torredejuegos.com.ar/",
+    "instagram": "https://www.instagram.com/oso_blanco_mdq",
+    "direccion": "Av. Principal 456, Mar del Plata",
+    "ciudad": "Mar del Plata",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 223 7654321",
+    "horarios": "Martes a Domingo de 12 a 22 hs",
+    "tipo": "cafetería",
+    "tags": ["café", "juegos de mesa", "ambiente familiar"],
+    "fotos": [
+      "tiendas/torre1.jpg"
+   
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=oso+blanco+mar+del+plata' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "torre-de-juegos",
+    "nombre": "Torre de Juegos",
+    "web": "https://torredejuegos.com",
+    "instagram": "https://www.instagram.com/torredejuegos",
+    "direccion": "",
+    "ciudad": "",
+    "provincia": "",
+    "telefono": "",
+    "horarios": "",
+    "tipo": "online",
+    "tags": ["venta online", "juegos de mesa"],
+    "fotos": [
+      "torre1.jpg"
+    ],
+    "iframe": ""
+  },
+  {
+    "id": "la-casa-de-hermes",
+    "nombre": "La Casa de Hermes",
+    "web": "https://lacasadehermes.com",
+    "instagram": "https://www.instagram.com/lacasadehermes",
+    "direccion": "Calle 9 de Julio 789, Salta",
+    "ciudad": "Salta",
+    "provincia": "Salta",
+    "telefono": "+54 387 1234567",
+    "horarios": "Lunes a Sábado de 10 a 18 hs",
+    "tipo": "física",
+    "tags": ["juegos de mesa", "novedades"],
+    "fotos": [
+      "hermes1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=la+casa+de+hermes+salta' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "payana",
+    "nombre": "Payana",
+    "web": "https://payana.com.ar",
+    "instagram": "https://www.instagram.com/payana",
+    "direccion": "Av. Central 1234, Buenos Aires",
+    "ciudad": "Buenos Aires",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 11 4567890",
+    "horarios": "Lunes a Viernes de 9 a 19 hs",
+    "tipo": "física",
+    "tags": ["juegos de mesa", "familiares"],
+    "fotos": [
+      "payana1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=payana+buenos+aires' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "orc-shop",
+    "nombre": "Orc Shop",
+    "web": "https://orcshop.com",
+    "instagram": "https://www.instagram.com/orcshop",
+    "direccion": "Av. Corrientes 456, Buenos Aires",
+    "ciudad": "Buenos Aires",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 11 12345678",
+    "horarios": "Martes a Domingo de 11 a 20 hs",
+    "tipo": "física",
+    "tags": ["juegos de mesa", "rol", "miniaturas"],
+    "fotos": [
+      "orc1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=orc+shop+buenos+aires' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "tienda-ludica",
+    "nombre": "Tienda Lúdica",
+    "web": "https://tiendaludica.com",
+    "instagram": "https://www.instagram.com/tiendaludica",
+    "direccion": "Calle San Martín 234, Buenos Aires",
+    "ciudad": "Buenos Aires",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 11 87654321",
+    "horarios": "Lunes a Sábado de 10 a 20 hs",
+    "tipo": "física",
+    "tags": ["juegos de mesa", "torneos", "familias"],
+    "fotos": [
+      "ludica1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=tienda+ludica+buenos+aires' width='300' height='200'></iframe>"
+  },
+  {
+    "id": "recreolibro",
+    "nombre": "RecreoLibro",
+    "web": "https://recreolibro.com",
+    "instagram": "https://www.instagram.com/recreolibro",
+    "direccion": "Av. Principal 789, Carlos Casares",
+    "ciudad": "Carlos Casares",
+    "provincia": "Buenos Aires",
+    "telefono": "+54 233 1234567",
+    "horarios": "Lunes a Viernes de 9 a 18 hs",
+    "tipo": "física",
+    "tags": ["libros", "juegos de mesa"],
+    "fotos": [
+      "recreo1.jpg"
+    ],
+    "iframe": "<iframe src='https://maps.google.com/?q=recreolibro+carlos+casares' width='300' height='200'></iframe>"
+  }
+]

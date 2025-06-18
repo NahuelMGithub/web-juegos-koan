@@ -1,56 +1,43 @@
-
-
 HACER:
 
-1)En home, solo juegos
-2)En JUEGOS: dos secciones, juegos y protos. 
-NOmas pestaña de Prototipos
+1)En home, solo juegos: LISTO 
+2)En JUEGOS: dos secciones, juegos y protos.: LISTO 
+3)En lugar de cards, solo van a estar: Foto y su nombre: LISTO
+4)Tiendas: listado de tienda con Nombre, foto, web, red y dirección. : LISTO
+5)Calendario: Listo
 
-3)En lugar de cards, solo van a estar: Foto y su nombre
-
-
-4)Tiendas: listado de tienda con Nombre, foto, web, red y dirección. 
-json de tiendas
-
-
-5)Calendario.
-Json de calendario:
-i
 
 6)Nosotros:
 fotos, sobre el koan, y texto
 
+7) Completar jsons:
+-juegos
+-protos
+-eventos
+-tiendas
 
+8)header y footer: unificar estetica; LISTO
+
+
+9)Prototipos:  viene bien
+juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
+prototipo: queda un espacio feo abajo, ademas dice comprar.. tal vez otra cosa, como un boton que diga me gustaria probarlo, o algo asi 
+
+10) Host y dominio
+
+11) hacer que google lo encuentre
+
+segunda etapa:
 
 tipografia 
 
-
-Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
-
-
-header y footer: unificar estetica
-
-
-
-
-Prototipos:  viene bien
-juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
-prototipo: queda un espacio feo abajo, 
-
-
+los cards pueden brillar al pasar por arriba
+colocar algun otro color de fondo
 Tiendas Meter un buscador
 Nosotros:
 Calendarios
 
+En home
+Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
 
-Para siguiente Nivel: 
-quiero que juego y protoipo, asi como eventos...
-El carrsule se cree distinto. Que NO tenga 3 imagenes por defecto, sino que vea el array y cree segun la cantidad q tenga
-Minimo le voy a poner 1
-
-
-
-jsons
-json de Juegos
-json de tiendas
-json de Eventos
+agregar divs que te inviten a ver: eventos (anterior), juegos, nosotros, etc
