@@ -1,5 +1,40 @@
 [
   {
+    "id": "torre-de-juegos",
+    "nombre": "Torre de Juegos",
+    "web": "https://www.torredejuegos.com.ar/",
+    "instagram": "https://www.instagram.com/torredejuegos",
+    "direccion": "",
+    "ciudad": "",
+    "provincia": "",
+    "telefono": "",
+    "horarios": "",
+    "tipo": "online",
+    "tags": ["venta online", "juegos de mesa"],
+    "fotos": [
+      "tiendas/torreDeJuegos.jpg"
+    ],
+    "iframe": ""
+  },
+  {
+    "id": "oso-blanco",
+    "nombre": "Oso Blanco",
+    "web": "https://www.torredejuegos.com.ar/",
+    "instagram": "https://www.instagram.com/oso_blanco_mdq",
+    "direccion": "Alberti 2746",
+    "ciudad": "Mar del Plata",
+    "provincia": "Buenos Aires",
+    "telefono": "-",
+    "horarios": "Martes a Domingo de 12 a 22 hs",
+    "tipo": "cafetería",
+    "tags": ["café", "juegos de mesa", "ambiente familiar"],
+    "fotos": [
+      "tiendas/torre1.jpg"
+   
+    ],
+    "iframe": "<iframe src='https://maps.app.goo.gl/UinTQV4PoF6fmoNM7' width='300' height='200'></iframe>"
+  },
+  {
     "id": "homo-ludens",
     "nombre": "Homo Ludens",
     "web": "https://homoludensbb.com",
@@ -16,41 +51,7 @@
     ],
     "iframe": "<iframe src='https://maps.google.com/?q=homo+ludens+bahia+blanca' width='300' height='200'></iframe>"
   },
-  {
-    "id": "oso-blanco",
-    "nombre": "Oso Blanco",
-    "web": "https://www.torredejuegos.com.ar/",
-    "instagram": "https://www.instagram.com/oso_blanco_mdq",
-    "direccion": "Av. Principal 456, Mar del Plata",
-    "ciudad": "Mar del Plata",
-    "provincia": "Buenos Aires",
-    "telefono": "+54 223 7654321",
-    "horarios": "Martes a Domingo de 12 a 22 hs",
-    "tipo": "cafetería",
-    "tags": ["café", "juegos de mesa", "ambiente familiar"],
-    "fotos": [
-      "tiendas/torre1.jpg"
-   
-    ],
-    "iframe": "<iframe src='https://maps.google.com/?q=oso+blanco+mar+del+plata' width='300' height='200'></iframe>"
-  },
-  {
-    "id": "torre-de-juegos",
-    "nombre": "Torre de Juegos",
-    "web": "https://torredejuegos.com",
-    "instagram": "https://www.instagram.com/torredejuegos",
-    "direccion": "",
-    "ciudad": "",
-    "provincia": "",
-    "telefono": "",
-    "horarios": "",
-    "tipo": "online",
-    "tags": ["venta online", "juegos de mesa"],
-    "fotos": [
-      "torre1.jpg"
-    ],
-    "iframe": ""
-  },
+  
   {
     "id": "la-casa-de-hermes",
     "nombre": "La Casa de Hermes",
