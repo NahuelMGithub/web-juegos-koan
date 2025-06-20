@@ -11,7 +11,7 @@ HACER:
 
 7) Completar jsons:
 -juegos> Listo
--protos
+-protos: Listo
 -eventos: Listo
 -tiendas
 
@@ -30,6 +30,9 @@ Btn de cuadno comprar
 
 12) json de novedades. 
 
+
+si sacando ../img toma, arreglar los json
+
 segunda etapa:
 
 
@@ -45,6 +48,8 @@ Nosotros:
 Calendarios
 
 En home
+juntar mas las imagenes de los cards, 
+
 Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
 
 agregar divs que te inviten a ver: eventos (anterior), juegos, nosotros, etc

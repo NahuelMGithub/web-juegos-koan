@@ -6,7 +6,7 @@
     "fecha": "2025-09-06",
     "ciudad": "Rosario",
     "provincia": "Santa Fe",
-    "imagen": "../img/eventos/culturaenjuego2025-01.jpg",
+    "imagen": "img/eventos/culturaenjuego2025-01.jpg",
     "redes": {
       "instagram": "https://www.instagram.com/culturaenjuego/", 
       "web": "https://culturaenjuego.ar/"
@@ -20,7 +20,7 @@
     "fecha": "2025-11-07",
     "ciudad": "San Luis",
     "provincia": "San Luis",
-    "imagen": "../img/eventos/ENJM2025-01.jpg",
+    "imagen": "img/eventos/ENJM2025-01.jpg",
     "redes": {
       "instagram": "https://www.instagram.com/enjm.ar/?hl=es",
       "web": "https://enjm.ar/"
@@ -40,7 +40,7 @@
       "instagram": "https://instagram.com/ludica_rosario"
     },
     "comentarios": "La playa y los juegos de mesa se unieron para brindar un fin de semana inolvidable, lleno de diversión, entretenimiento y momentos compartidos en familia.",
-    "fotos": ["../img/eventos/ENJM2024-01.jpg", "../img/eventos/ENJM2024-02.jpg", "../img/eventos/ENJM2024-03.jpg", "../img/eventos/ENJM2024-04.jpg" ]
+    "fotos": ["img/eventos/ENJM2024-01.jpg", "img/eventos/ENJM2024-02.jpg", "img/eventos/ENJM2024-03.jpg", "img/eventos/ENJM2024-04.jpg" ]
   }
   ,
 
@@ -50,7 +50,7 @@
     "fecha": "2025-07-19",
     "ciudad": "Adrogué",
     "provincia": "Bs As",
-    "imagen": "../img/eventos/erjm2025-01.jpg",
+    "imagen": "img/eventos/erjm2025-01.jpg",
     "redes": {
       "instagram": "https://www.instagram.com/p/DIR6CxrhYNU/"
     },
