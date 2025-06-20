@@ -1,3 +1,5 @@
+https://nahuelmgithub.github.io/web-juegos-koan/
+
 HACER:
 
 1)En home, solo juegos: LISTO 
@@ -5,29 +7,34 @@ HACER:
 3)En lugar de cards, solo van a estar: Foto y su nombre: LISTO
 4)Tiendas: listado de tienda con Nombre, foto, web, red y dirección. : LISTO
 5)Calendario: Listo
-
-
-6)Nosotros:
-fotos, sobre el koan, y texto
+6)header y footer: unificar estetica; LISTO
 
 7) Completar jsons:
--juegos
+-juegos> Listo
 -protos
--eventos
+-eventos: Listo
 -tiendas
 
-8)header y footer: unificar estetica; LISTO
 
-
-9)Prototipos:  viene bien
+8)Prototipos:  viene bien
 juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
 prototipo: queda un espacio feo abajo, ademas dice comprar.. tal vez otra cosa, como un boton que diga me gustaria probarlo, o algo asi 
 
-10) Host y dominio
+9) Host y dominio
 
-11) hacer que google lo encuentre
+10) hacer que google lo encuentre
+
+
+11) Prototipo: Cambiar la parte de video.
+Btn de cuadno comprar
+
+12) json de novedades. 
 
 segunda etapa:
+
+
+Nosotros:
+fotos, sobre el koan, y texto
 
 tipografia 
 

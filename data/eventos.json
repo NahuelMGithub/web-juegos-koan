@@ -15,14 +15,15 @@
     "fotos": []
   },
   {
-    "id": "erjm2025",
-    "nombre": "Encuentro Regional Juegos de Mesa 2025",
-    "fecha": "2025-03-10",
-    "ciudad": "Adrogué",
-    "provincia": "Bs As",
-    "imagen": "../img/eventos/ENJM2024-03.jpg",
+    "id": "enjm2025",
+    "nombre": "Encuentro Nacional de Juegos de Mesa 2025",
+    "fecha": "2025-11-07",
+    "ciudad": "San Luis",
+    "provincia": "San Luis",
+    "imagen": "../img/eventos/ENJM2025-01.jpg",
     "redes": {
-      "instagram": "https://instagram.com/ludica_rosario"
+      "instagram": "https://www.instagram.com/enjm.ar/?hl=es",
+      "web": "https://enjm.ar/"
     },
     "comentarios": "",
     "fotos": []
@@ -34,26 +35,26 @@
     "fecha": "2024-09-10",
     "ciudad": "Mar del Plata",
     "provincia": "Bs As",
-    "imagen": "../img/eventos/ENJM2024-01.jpg",
+    "imagen": "img/eventos/ENJM2024-01.jpg",
     "redes": {
       "instagram": "https://instagram.com/ludica_rosario"
     },
-    "comentarios": "La playa y los juegos, unidos en un excelente fin de semana para toda la familia",
+    "comentarios": "La playa y los juegos de mesa se unieron para brindar un fin de semana inolvidable, lleno de diversión, entretenimiento y momentos compartidos en familia.",
     "fotos": ["../img/eventos/ENJM2024-01.jpg", "../img/eventos/ENJM2024-02.jpg", "../img/eventos/ENJM2024-03.jpg", "../img/eventos/ENJM2024-04.jpg" ]
   }
   ,
 
   {
-    "id": "enjm2025",
-    "nombre": "Encuentro Nacional Juegos de Mesa 2025",
-    "fecha": "2025-11-07",
-    "ciudad": "San luis",
-    "provincia": "San luis",
-    "imagen": "../img/eventos/ENJM2025-01.jpg",
+    "id": "erjm2025",
+    "nombre": "Tercer encuntro regional de Juegos de Mesa 2025",
+    "fecha": "2025-07-19",
+    "ciudad": "Adrogué",
+    "provincia": "Bs As",
+    "imagen": "../img/eventos/erjm2025-01.jpg",
     "redes": {
-      "instagram": "https://www.instagram.com/enjm.ar/?hl=es"
+      "instagram": "https://www.instagram.com/p/DIR6CxrhYNU/"
     },
-    "comentarios": "La playa y los juegos, unidos en un excelente fin de semana para toda la familia",
-    "fotos": ["../img/eventos/ENJM2025-01.jpg", "../img/eventos/ENJM2024-02.jpg", "../img/eventos/ENJM2024-03.jpg", "../img/eventos/ENJM2024-04.jpg" ]
+    "comentarios": "Nos vemos el 19 y 20 de julio en Adrogue",
+    "fotos": [ ]
   }
 ]
