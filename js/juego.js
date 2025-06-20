@@ -17,10 +17,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("jugadores").innerText = juego.jugadores;
     document.getElementById("tiempo").innerText = juego.tiempo;
     document.getElementById("dificultad").innerText = juego.dificultad;
-    document.getElementById("video").src = juego.video;
     document.getElementById("precio").innerText = juego.precio;
     document.getElementById("disponible").innerText = juego.disponible;
-  
+   document.getElementById("video").src = juego.video;
+
+    
+    const btnesAccion = document.getElementById("btnsAccion")
+
+
+
     // Cargar imágenes en el carrusel
     const carrusel = document.getElementById("carousel-inner");
     juego.imagenes.forEach((img, index) => {
@@ -29,5 +34,27 @@ document.addEventListener("DOMContentLoaded", async () => {
       div.innerHTML = `<img src="img/${img}" class="d-block w-100" alt="Imagen de ${juego.titulo}">`;
       carrusel.appendChild(div);
     });
+
+let botonesHTML = "";
+    if (juego.tipo === "publicado") {
+      botonesHTML = `
+        <div class="btnsAccion">
+          <a href="https://www.instagram.com/koan.juegos/" class="btn btn-primary" target="_blank">Comprar por instagram</a>
+          <a href="tiendas.html" class="btn btn-secondary" target="_blank">Comprar en tiendas</a>
+        </div>
+      `;
+    } else if (juego.tipo === "prototipo") {
+      botonesHTML = `
+        <div class="btnsAccion">
+          <a href="https://www.instagram.com/koan.juegos/" class="btn btn-outline-primary" target="_blank">Hablar por instagram</a>
+          <a href="eventos.html" class="btn btn-outline-secondary" target="_blank">Buscar evento para probar</a>
+        </div>
+      `;
+    }
+    
+    btnesAccion.innerHTML = botonesHTML
+
+
+
   });
   

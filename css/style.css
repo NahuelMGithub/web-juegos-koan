@@ -252,18 +252,28 @@ footer {
 }
 
 
-.comprar {
+.btnsAccion {
+  margin-top: 1.5rem;
   display: flex;
-  justify-content: center;  /* Centra el botón horizontalmente */
-  align-items: center;
-  width: 100%;
-  margin-top: 2rem;
-  box-sizing: border-box;  
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-.comprar .btn {
-  width: auto;  /* Asegura que el botón no se expanda más de lo necesario */
+.btnsAccion a {
+  min-width: 180px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.btnsAccion a:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 
 

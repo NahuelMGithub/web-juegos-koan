@@ -8,13 +8,11 @@ HACER:
 4)Tiendas: listado de tienda con Nombre, foto, web, red y dirección. : LISTO
 5)Calendario: Listo
 6)header y footer: unificar estetica; LISTO
-
 7) Completar jsons:
 -juegos> Listo
 -protos: Listo
 -eventos: Listo
--tiendas: faltan las 4 de abajo
-
+-tiendas: Listo
 
 8)Prototipos:  NO lo toma, esta usando juegos.js Arreglarlo para que use uno solo, no tiene sentido q sean dos. 
 Eliminar: protipo.html y prototipo.js 
@@ -22,22 +20,27 @@ en juego.js tiene que saber si esta tomando un juego o un prototipo. si es proto
 No va a mostrar video y ademas, el btn va a llevar a eventos.
 juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
 prototipo: queda un espacio feo abajo, ademas dice comprar.. tal vez otra cosa, como un boton que diga me gustaria probarlo, o algo asi 
+ademas, dos botones: comprar en tinda, contactar por ig. si es proto:
+probar en algun evento. hablar al ig
+
+
+
+
+9)problema con el video
+10(Tiendas: q muestre el ig tambien
 
 9) Host y dominio
 
 10) hacer que google lo encuentre
 
-
-11) Prototipo: Cambiar la parte de video.
-Btn de cuadno comprar
-
-12) json de novedades. 
+Tiendas: un comentario indicando que pueden comprar en ig o en alguna de esas tiendas
 
 
-si sacando ../img toma, arreglar los json
+eventos: todas las fotos iguales
 
 segunda etapa:
 
+json de novedades. 
 
 Nosotros:
 fotos, sobre el koan, y texto

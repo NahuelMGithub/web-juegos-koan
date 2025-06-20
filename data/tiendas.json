@@ -72,8 +72,8 @@
     "id": "payana",
     "nombre": "Payana",
     "web": "https://payana.com.ar",
-    "instagram": "https://www.instagram.com/payana",
-    "direccion": "Av. Central 1234, Buenos Aires",
+    "instagram": "https://www.instagram.com/payanajuegos/?hl=es",
+    "direccion": "Don Torcuato",
     "ciudad": "Buenos Aires",
     "provincia": "Buenos Aires",
     "telefono": "+54 11 4567890",
@@ -81,59 +81,53 @@
     "tipo": "física",
     "tags": ["juegos de mesa", "familiares"],
     "fotos": [
-      "payana1.jpg"
+      "tiendas/payana1.jpg"
     ],
-    "iframe": "<iframe src='https://maps.google.com/?q=payana+buenos+aires' width='300' height='200'></iframe>"
+    "iframe": "Sin local a la calle"
   },
   {
     "id": "orc-shop",
     "nombre": "Orc Shop",
-    "web": "https://orcshop.com",
-    "instagram": "https://www.instagram.com/orcshop",
-    "direccion": "Av. Corrientes 456, Buenos Aires",
-    "ciudad": "Buenos Aires",
+    "web": "https://orcshop.empretienda.com.ar/",
+    "instagram": "https://www.instagram.com/orcshopgames/?hl=es-la",
+    "direccion": "Newbery 3857",
+    "ciudad": "CABA",
     "provincia": "Buenos Aires",
     "telefono": "+54 11 12345678",
     "horarios": "Martes a Domingo de 11 a 20 hs",
     "tipo": "física",
     "tags": ["juegos de mesa", "rol", "miniaturas"],
-    "fotos": [
-      "orc1.jpg"
-    ],
-    "iframe": "<iframe src='https://maps.google.com/?q=orc+shop+buenos+aires' width='300' height='200'></iframe>"
+    "fotos": [ "tiendas/orcoshop1.jpg"    ],
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6972978479193!2d-58.450222499999995!3d-34.58652509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5bc25c3c329%3A0xb2d070b17dfe14cf!2sOrc%20Shop!5e0!3m2!1ses!2sar!4v1750437410032!5m2!1ses!2sar' width='300' height='200'></iframe>"
   },
   {
     "id": "tienda-ludica",
     "nombre": "Tienda Lúdica",
-    "web": "https://tiendaludica.com",
-    "instagram": "https://www.instagram.com/tiendaludica",
-    "direccion": "Calle San Martín 234, Buenos Aires",
-    "ciudad": "Buenos Aires",
-    "provincia": "Buenos Aires",
+    "web": "https://tiendaludica.com.ar/",
+    "instagram": "https://www.instagram.com/tiendaludica/reels/",
+    "direccion": "Catamarca 3173, Rosario",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
     "telefono": "+54 11 87654321",
     "horarios": "Lunes a Sábado de 10 a 20 hs",
     "tipo": "física",
     "tags": ["juegos de mesa", "torneos", "familias"],
-    "fotos": [
-      "ludica1.jpg"
-    ],
-    "iframe": "<iframe src='https://maps.google.com/?q=tienda+ludica+buenos+aires' width='300' height='200'></iframe>"
+    "fotos": [   "tiendas/ludica1.jpg"     ],
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5818369902345!2d-60.665088499999996!3d-32.9356447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6558b7ff2936f%3A0x1c775259cdb0ee91!2sTienda%20L%C3%BAdica!5e0!3m2!1ses!2sar!4v1750438178918!5m2!1ses!2sar' width='300' height='200'></iframe>"
   },
   {
     "id": "recreolibro",
     "nombre": "RecreoLibro",
-    "web": "https://recreolibro.com",
-    "instagram": "https://www.instagram.com/recreolibro",
-    "direccion": "Av. Principal 789, Carlos Casares",
+    "instagram": "https://www.instagram.com/recreolibros/",
+    "direccion": "Av 9 de julio e Hipolito Yrigoyen, Carlos Casares",
     "ciudad": "Carlos Casares",
     "provincia": "Buenos Aires",
     "telefono": "+54 233 1234567",
     "horarios": "Lunes a Viernes de 9 a 18 hs",
     "tipo": "física",
     "tags": ["libros", "juegos de mesa"],
-    "fotos": [
-      "recreo1.jpg"
-    ],
-    "iframe": "<iframe src='https://maps.google.com/?q=recreolibro+carlos+casares' width='300' height='200'></iframe>"
+    "fotos": [ "tiendas/recreolibros1.jpg"    ],
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.0945553815222!2d-61.364561523352826!3d-35.62539541217302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c08236bdc1cf79%3A0x403200330a63f394!2sRecreo%20Libros!5e0!3m2!1ses!2sar!4v1750438380419!5m2!1ses!2sar' width='300' height='200'></iframe>"
   }
 ]
+
