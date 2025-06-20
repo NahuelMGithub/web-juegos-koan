@@ -62,7 +62,7 @@
     "jugadores": "3 a 4",
     "tiempo": "90 a 120 minutos",
     "dificultad": "Alta",
-    "imagenes": ["../img/crono1.jpg", "../img/crono2.jpg", "../img/crono3.jpg"],
+    "imagenes": ["../img/crono1.jpg"],
     "video": "",
     "precio": "",
     "fechalanzamiento": "2026",

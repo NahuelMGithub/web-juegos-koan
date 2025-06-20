@@ -5,8 +5,8 @@
     "web": "https://www.torredejuegos.com.ar/",
     "instagram": "https://www.instagram.com/torredejuegos",
     "direccion": "",
-    "ciudad": "",
-    "provincia": "",
+    "ciudad": "La Plata",
+    "provincia": "Bs As",
     "telefono": "",
     "horarios": "",
     "tipo": "online",
@@ -14,12 +14,11 @@
     "fotos": [
       "tiendas/torreDeJuegos.jpg"
     ],
-    "iframe": ""
+    "iframe": "Sin local a la calle"
   },
   {
     "id": "oso-blanco",
     "nombre": "Oso Blanco",
-    "web": "https://www.torredejuegos.com.ar/",
     "instagram": "https://www.instagram.com/oso_blanco_mdq",
     "direccion": "Alberti 2746",
     "ciudad": "Mar del Plata",
@@ -29,17 +28,18 @@
     "tipo": "cafetería",
     "tags": ["café", "juegos de mesa", "ambiente familiar"],
     "fotos": [
-      "tiendas/torre1.jpg"
+      "tiendas/oso1.jpg"
    
     ],
-    "iframe": "<iframe src='https://maps.app.goo.gl/UinTQV4PoF6fmoNM7' width='300' height='200'></iframe>"
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.7592427593117!2d-57.5542948!3d-38.0060758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584df09f91dbcdd%3A0xb5c95e9a0c22a42f!2sOso%20Blanco%20caf%C3%A9%20de%20especialidad!5e0!3m2!1ses!2sar!4v1750390630615!5m2!1ses!2sar' width='300' height='200'></iframe>"
+  
   },
   {
     "id": "homo-ludens",
     "nombre": "Homo Ludens",
-    "web": "https://homoludensbb.com",
+    "web": "https://casahomoludens.com/",
     "instagram": "https://www.instagram.com/homoludensbb",
-    "direccion": "Calle Falsa 123, Bahía Blanca",
+    "direccion": "Sarmiento 2153, Av. Gral. D. Cerri 715,, Bahía Blanca",
     "ciudad": "Bahía Blanca",
     "provincia": "Buenos Aires",
     "telefono": "+54 291 1234567",
@@ -47,16 +47,17 @@
     "tipo": "física",
     "tags": ["juegos de mesa", "torneos", "familias"],
     "fotos": [
-      "tiendas/torre1.jpg"
+      "tiendas/homoludens.jpg"
     ],
-    "iframe": "<iframe src='https://maps.google.com/?q=homo+ludens+bahia+blanca' width='300' height='200'></iframe>"
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.769725121553!2d-62.244163823229144!3d-38.700133485215616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcaffcd224ed%3A0xf340a2a0239248fd!2sCasa%20Homo%20Ludens!5e0!3m2!1ses!2sar!4v1750390738537!5m2!1ses!2sar' width='300' height='200'></iframe>"
   },
-  
+
+
   {
-    "id": "la-casa-de-hermes",
-    "nombre": "La Casa de Hermes",
-    "web": "https://lacasadehermes.com",
-    "instagram": "https://www.instagram.com/lacasadehermes",
+    "id": "elrincondehermes",
+    "nombre": "El rincón de Hermes",
+    "web": "https://elrincondehermes.com.ar/#!/-bienvenidos/",
+    "instagram": "https://www.instagram.com/elrincondehermes/?hl=es-la",
     "direccion": "Calle 9 de Julio 789, Salta",
     "ciudad": "Salta",
     "provincia": "Salta",
@@ -64,10 +65,8 @@
     "horarios": "Lunes a Sábado de 10 a 18 hs",
     "tipo": "física",
     "tags": ["juegos de mesa", "novedades"],
-    "fotos": [
-      "hermes1.jpg"
-    ],
-    "iframe": "<iframe src='https://maps.google.com/?q=la+casa+de+hermes+salta' width='300' height='200'></iframe>"
+    "fotos": [ "tiendas/hermes1.jpg"],
+    "iframe": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.252297304577!2d-65.4048122!3d-24.7868129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3780041ca07%3A0x203851af14eb4386!2sEl%20Rinc%C3%B3n%20de%20Hermes!5e0!3m2!1ses!2sar!4v1750391227674!5m2!1ses!2sar' width='300' height='200'></iframe>"
   },
   {
     "id": "payana",

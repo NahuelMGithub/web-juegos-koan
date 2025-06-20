@@ -13,10 +13,13 @@ HACER:
 -juegos> Listo
 -protos: Listo
 -eventos: Listo
--tiendas
+-tiendas: faltan las 4 de abajo
 
 
-8)Prototipos:  viene bien
+8)Prototipos:  NO lo toma, esta usando juegos.js Arreglarlo para que use uno solo, no tiene sentido q sean dos. 
+Eliminar: protipo.html y prototipo.js 
+en juego.js tiene que saber si esta tomando un juego o un prototipo. si es proto: 
+No va a mostrar video y ademas, el btn va a llevar a eventos.
 juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
 prototipo: queda un espacio feo abajo, ademas dice comprar.. tal vez otra cosa, como un boton que diga me gustaria probarlo, o algo asi 
 
