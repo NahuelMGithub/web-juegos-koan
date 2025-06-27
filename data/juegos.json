@@ -11,7 +11,8 @@
     "precio": "$70.000",
     "fechalanzamiento": "abril 2025",
     "disponible": "Disponible",
-    "tipo": "publicado"
+    "tipo": "publicado",
+    "bg": "https://boardgamegeek.com/boardgame/445817/psiquis"
   } ,
   {
     "id": "cb",
@@ -25,7 +26,8 @@
     "precio": "$40.000",
     "fechalanzamiento": "septiembre 2023",
     "disponible": "AGOTADO",
-    "tipo": "publicado"  
+    "tipo": "publicado",
+    "bg": "https://boardgamegeek.com/boardgame/408772/c-and-b-civilizacion-and-barbarie"  
   },
   {
     "id": "labalsapremium",

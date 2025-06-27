@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Psiquis ya está a la venta",
+    "imagen": "img/novedades/novedades1.jpg",
+    "alt": "Novedad 1",
+    "mostrar": true
+  },
+  {
+    "titulo": "Superamos los 1.000 seguidores en Instagram",
+    "imagen": "img/novedades/novedades2.jpg",
+    "alt": "Novedad 2",
+    "mostrar": true
+  },
+  {
+    "titulo": "Pasamos por La Plata Lúdica",
+    "imagen": "img/novedades/novedades3.jpg",
+    "alt": "Novedad 3",
+    "mostrar": true
+  }
+]

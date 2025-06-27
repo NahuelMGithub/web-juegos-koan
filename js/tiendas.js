@@ -50,15 +50,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         linksDiv.appendChild(aWeb);
       }
 
-      // Dirección
-/*       if (tienda.instagram) {
+      
+       if (tienda.instagram) {
         const aIg = document.createElement("a");
-        aIg.href = tienda.ig;
+        aIg.href = tienda.instagram;
         aIg.target = "_blank";
         aIg.rel = "noopener noreferrer";
         aIg.textContent = "Instagram";
         linksDiv.appendChild(aIg);
-      } */
+      } 
 
       // Dirección
       const direccion = document.createElement("p");

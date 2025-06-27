@@ -19,9 +19,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("dificultad").innerText = juego.dificultad;
     document.getElementById("precio").innerText = juego.precio;
     document.getElementById("disponible").innerText = juego.disponible;
-   document.getElementById("video").src = juego.video;
+    document.getElementById("video").src = juego.video;
 
-    
+    if(juego.bg){
+      let linkbg =  `<a href= "${juego.bg}" class="btn btn-outline-primary" target="_blank"> Ver ${juego.titulo} en la BBG</a>`
+      document.getElementById("bg").innerHTML = linkbg
+    } else{
+      document.getElementById("bg").innerText ="No posee"
+    }
+
+
     const btnesAccion = document.getElementById("btnsAccion")
 
 
