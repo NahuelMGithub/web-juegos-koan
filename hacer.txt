@@ -13,21 +13,12 @@ HACER:
 -protos: Listo
 -eventos: Listo
 -tiendas: Listo
-
-8)Prototipos:  NO lo toma, esta usando juegos.js Arreglarlo para que use uno solo, no tiene sentido q sean dos. 
-Eliminar: protipo.html y prototipo.js 
-en juego.js tiene que saber si esta tomando un juego o un prototipo. si es proto: 
-No va a mostrar video y ademas, el btn va a llevar a eventos.
-juego: cambiar boton de compra. Eventualmente agregar compra directa a MP
-prototipo: queda un espacio feo abajo, ademas dice comprar.. tal vez otra cosa, como un boton que diga me gustaria probarlo, o algo asi 
-ademas, dos botones: comprar en tinda, contactar por ig. si es proto:
-probar en algun evento. hablar al ig
+8)Prototipos:  listo
+9)problema con el video: listo
+10)Tiendas: q muestre el ig tambien: listo
 
 
 
-
-9)problema con el video
-10(Tiendas: q muestre el ig tambien
 
 9) Host y dominio
 
@@ -59,3 +50,18 @@ juntar mas las imagenes de los cards,
 Agregar Proixmos Eventos Eventos: aca solo muestra los que aun no pasaron.
 
 agregar divs que te inviten a ver: eventos (anterior), juegos, nosotros, etc
+
+
+/////////////////////////////////////////////////////
+revsion 3.2.0. primeras correcciones post vision
+-Home: header: cambiar novedad 3 por encuentro regional
+-Juegos/juego: si no tiene video, eliminar ese div. 
+-json: juego "Malevich": agregar descripciòn del juego y al menos 2 fotos (@Pablo Coll eso te lo pido a vos). Cronopatia: mencionar que fue finalista. Agregar 2 fotos 
+-Eventos: foto unificar tamaño (no parece mega importante, pero lo puedo mejorar)
+-Tiendas: buscar otras fotos con mejor calidad (eso no lo voy a hacer ahora).
+-Nosotros: buscar foto y decripciòn de cada uno
+-Secciones: KOAN, nosotros, entrevistas. 
+-hacer json con links de videos de entrevistas. 
+En drive: Armar formato para que comunicación sepa como dejarnos la info y yo cargar a web
+
+//////////////////////////////////////////////////

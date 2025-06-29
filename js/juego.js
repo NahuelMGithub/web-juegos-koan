@@ -31,6 +31,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const btnesAccion = document.getElementById("btnsAccion")
 
+//elimino el video si no tiene
+const videoContenedor = document.getElementById("video-container");
+const iframeVideo = document.getElementById("video");
+
+if (juego.video && juego.video.trim() !== "") {
+  iframeVideo.src = juego.video;
+  videoContenedor.style.display = "block";
+} else {
+  videoContenedor.style.display = "none";
+}
 
 
     // Cargar imágenes en el carrusel

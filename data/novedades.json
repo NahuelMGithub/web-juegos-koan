@@ -16,5 +16,11 @@
     "imagen": "img/novedades/novedades3.jpg",
     "alt": "Novedad 3",
     "mostrar": true
+  },
+  {
+    "titulo": "Nos encontramos en el ERJM el ",
+    "imagen": "img/novedades/novedades4.jpg",
+    "alt": "Novedad 4",
+    "mostrar": true
   }
 ]

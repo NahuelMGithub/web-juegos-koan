@@ -185,7 +185,7 @@ footer {
   flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem;
-  min-height: 80vh;
+height: auto;
 }
 
 .juegos-section {
